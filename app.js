@@ -163,7 +163,7 @@ prompt ('Tie')
 
 // GAME V2
 
-const paper = 1
+/* const paper = 1
 const scissors = 2
 const rock = 3
 var answer1 = ('Random number' + (Math.floor(Math.random()*3)+1))
@@ -180,4 +180,52 @@ else
 if (answer1 == answer2)
 {
 console.log('Tie')
+}
+
+*/
+
+// Switch function
+/*
+var age = prompt ('Your age');
+switch (age) {
+  case "10":
+  alert ("over 10");
+  break;
+  case "30":
+  alert ("over 30");
+  break;
+  default:
+  alert ("who knows")
+}
+*/
+
+parseInt("3");
+function multiply (p1, p2){
+return p1*p2;
+}
+console.log(multiply(3,5))
+
+function divide (p1, p2){
+return p1%p2;
+}
+
+function sum (p1, p2){
+return p1+p2;
+}
+
+function substract (p1, p2){
+return p1-p2;
+}
+
+let value1 =parseInt(prompt("Introduce first number"));
+let value2 =parseInt(prompt("Introduce second number"));
+let operation = prompt ("What operaton do you want?");
+
+switch (operation) {
+  case '+':
+  alert (sum(value1,value2));
+    break;
+  default:
+  alert ("Nothing to see here")
+
 }
